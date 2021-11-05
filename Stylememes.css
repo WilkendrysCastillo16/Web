@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+      background: url('Imagenes-index/IMG1.jpg') no-repeat;
+      background-size: cover;
+    }
+  
+  header,footer{
+      background-color: rgba(0, 0, 0, .4);
+      width: 100%;
+      color: white;
+      font-family: 'Century Gothic', sans-serif;
+  }
+  header{
+      position:relative;
+      height: 10vh;
+  }
+  header h1{
+      position: absolute;
+      margin-top: 20px;
+      left: 5%;
+  }
+  footer{
+      position: relative;
+      height: 15vh;
+      bottom: 0;
+  }
+  footer h4{
+      position: absolute;
+      left: 20%;
+      
+  }
+  
+  .Navegacion{
+      position: absolute;
+      width: 100%;
+  }
+  
+  .Navegacion a{
+      position: relative;
+      left: 90%;
+      top:20px;
+      color: white;
+      text-decoration: none;
+      margin-right: 10px;
+  }
+  
+  .Seccion{
+      width: 900px;
+      background: rgba(0, 0, 0, .4);
+      padding: 20px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 4%;
+      color: white;
+      font-family: 'Century Gothic', sans-serif;
+      border-radius: 15px;
+  }
+
+  img{
+    width: 200px; height: 200px;
+  }
+
+  
